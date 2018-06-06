@@ -30,7 +30,7 @@ The project has two important components
  
  Steps:
  1- Navigate to exercise-api
- run the command ```pm start```
+ run the command ```npm start```
  
  2- Navigate back ```cd ..```
  
