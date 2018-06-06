@@ -35,6 +35,7 @@ The project has two important components
  2- Navigate back ```cd ..```
  
  3- Navigate to ibm-exercise
+ run the command ```npm install```
  run the command ```ng serve --open```
  
  the browser should open the angular project on 
