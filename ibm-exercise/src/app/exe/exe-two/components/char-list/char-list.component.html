@@ -1,0 +1,17 @@
+
+<div class="form-group my-dropdown-list">
+  <label>Characters</label>
+  <input id="search" name="search" #search="ngModel" type="text" class="form-control" (ngModelChange)="onChange($event)" [(ngModel)]="characterName" placeholder="Search for your best Star War character">
+  <div>
+      <div class="list-group my-dropdown-list-result" *ngIf="characterList.length > 0 && search.value !== ''">
+          <button *ngFor="let char of characterList; let indx = index" type="button" (click)="setCharecter(char)"  class="list-group-item list-group-item-action">
+              {{char.name}}
+          </button>
+        </div>
+  </div>
+  <div>
+  <div class="list-group my-dropdown-list-result" *ngIf="showNoResultMsg">
+          <span class="no-match-message">Sorry! No match has been found!</span>
+        </div>
+  </div>
+</div>

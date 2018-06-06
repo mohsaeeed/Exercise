@@ -1,0 +1,33 @@
+<div class="app-window">
+  <app-main-bar></app-main-bar>
+  
+  <div class="h-100 m-0 p-0 row col">
+    <nav class=" h-100 col-lg-2 col-md-2 d-none d-md-block p-0">
+      <ul>
+        <li class="app-menu-item">
+          <a routerLink="/exeOne">exercise 1</a>
+        </li>
+        <li class="app-menu-item">
+          <a routerLink="/exeTwo">exercise 2</a>
+        </li>
+      </ul>
+    </nav>
+
+    
+
+    <div class="content col-lg-10 col-md-10 col-sm-12 col-xs-12 ">
+        <router-outlet></router-outlet>
+    </div>
+
+    <nav class=" fixed-bottom col-sm-12 col-xs-12 d-md-none d-lg-none d-sm-block d-xs-block  p-0">
+      <ul class="row">
+        <li class="col text-center app-menu-item">
+          <a routerLink="/exeOne">exercise 1</a>
+        </li>
+        <li class="col text-center app-menu-item">
+          <a routerLink="/exeTwo">exercise 2</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>

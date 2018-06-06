@@ -1,0 +1,17 @@
+.main-bar{
+    width: 100%;
+    height:70px;
+    background-color: #ebebeb;
+    color: #242424;
+    
+}
+
+h1{
+    margin: 0px;
+    padding: 0px 20px;
+    line-height: 70px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}

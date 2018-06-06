@@ -1,0 +1,9 @@
+.my-dropdown-list{
+    position: relative;
+}
+
+.my-dropdown-list-result{
+    position: absolute;
+    z-index: 100000;
+    width: 100%;
+}
